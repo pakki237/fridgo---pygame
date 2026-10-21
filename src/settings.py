@@ -1,9 +1,21 @@
+FPS = 60
+
+
 WIDTH = 900
 HEIGHT = 600
 GROUND_HEIGHT = 50
 
-charging = False
-charge = 0
-max_charge = 30
-jump_multiplier = 0.20
-MAX_FALL_SPEED = 900
+
+FROG_WIDTH = 50
+
+FROG_HEIGHT = 50
+
+
+MAX_CHARGE = 30
+jump_multiplier = 0.25
+MAX_FALL_SPEED = 1200
+
+
+GRAVITY_UP = 1700
+GRAVITY_DOWN = 2200
+
