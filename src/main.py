@@ -75,9 +75,9 @@ COLLECTIBLE_SIZE = 28
 STAR_COOLDOWN = 3.0
 STAR_REPOSITION_INTERVAL = 8.0
 
-CLOCK_MIN_DELAY = 5.0
-CLOCK_MAX_DELAY = 10.0
-CLOCK_VISIBLE_TIME = 3.0
+CLOCK_MIN_DELAY = 3.0
+CLOCK_MAX_DELAY = 8.0
+CLOCK_VISIBLE_TIME = 5.0
 
 LEVEL_CHANGE_INTERVAL = 15.0
 DIFFICULTY_INTERVAL = 15.0
@@ -484,7 +484,7 @@ while running:
 
         if player_rect.colliderect(clock_item):
 
-            remaining_time += 5
+            remaining_time += 10
 
             time_clocks.remove(clock_item)
 
